@@ -1,12 +1,11 @@
 /* site.css */
 
-/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fefdfd; /* Light gray background */
-    color: #101010; /* Dark text color */
+    background-color: #fefdfd; 
+    color: #101010; 
     line-height: 1.6;
 }
 
@@ -18,9 +17,9 @@ body {
 
 /* Navigation Bar Styling */
 nav {
-    background-color: #5f43b2; /* Purple navigation bar */
+    background-color: #5f43b2; 
     padding: 10px 0;
-    text-align: center; /* Center align the navigation links */
+    text-align: center; 
 }
 
 nav ul {
@@ -36,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fefdfd; /* White text color for navigation links */
+    color: #fefdfd; 
     font-weight: bold;
 }
 
@@ -53,18 +52,18 @@ header {
 header h1 {
     font-size: 48px;
     margin-bottom: 10px;
-    color: #5f43b2; /* Purple header text color */
-}
+    color: #5f43b2; 
+} /* Closing curly brace was missing here */
 
 /* Section Styling */
 section {
-    background-color: #fefdfd; /* White section background */
+    background-color: #fefdfd; 
     margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Align children vertically */
+    flex-direction: column; 
 }
 
 section .content {
@@ -73,11 +72,11 @@ section .content {
 }
 
 section img {
-    max-width: 300px; /* Adjust the width as needed */
+    max-width: 300px; 
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Add space between image and text */
+    margin-bottom: 20px; 
 }
 
 section .text {
@@ -85,7 +84,7 @@ section .text {
 }
 
 section h2 {
-    color: #5f43b2; /* Purple section header text color */
+    color: #5f43b2; 
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -98,9 +97,8 @@ section p {
 /* Footer Styling */
 footer {
     text-align: center;
-    background-color: #5f43b2; /* Purple footer background */
-    color: #fefdfd; /* White footer text color */
-    padding: 20px 0;
+    background-color: #5f43b2; 
+    color: #fefdfd; 
     border-radius: 0 0 10px 10px;
 }
 
@@ -115,9 +113,9 @@ footer p {
 
 .button-container .landing-button {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding to make buttons smaller */
-    background-color: #5f43b2; /* Purple button background */
-    color: #fefdfd; /* White button text color */
+    padding: 10px 20px; 
+    background-color: #5f43b2; 
+    color: #fefdfd; 
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -129,5 +127,5 @@ footer p {
 }
 
 .button-container .landing-button:hover {
-    background-color: #48309d; /* Darker shade of purple for hover */
+    background-color: #48309d; 
 }
